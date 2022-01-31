@@ -1,0 +1,72 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px !important;
+    font-weight: 600;
+    font-family: Poppins, Helvetica, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+    overflow: hidden;
+    overflow-y: auto;
+    color: #273c75;
+    background: #eee;
+}
+
+.box {
+    width: 100%;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 10px 34px -15px rgb(0 0 0 / 24%);
+    -moz-box-shadow: 0 10px 34px -15px rgba(0, 0, 0, .24);
+    box-shadow: 0 10px 34px -15px rgb(0 0 0 / 24%);
+}
+
+.box-left-bg {
+    background: #273c75;
+    color: #fff;
+}
+
+.box-right-bg {
+    background: #fff;
+    color: #333;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+#login_form .form-control {
+    height: 48px;
+    background: rgba(0, 0, 0, .05);
+    color: #000;
+    font-size: 16px;
+    border-radius: 50px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid transparent;
+    padding-left: 20px;
+    padding-right: 20px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+.btn.btn-primary {
+    background-color: #273c75;
+    border-color: #273c75;
+    font-weight: 500;
+}
+
+.heading_divider {
+    width: 60px;
+    height: 3px;
+    margin: 0 auto;
+    border-style: solid;
+    border-width: 3px;
+    border-image-source: linear-gradient(to right, #fff042, #e97b01);
+    border-image-slice: 1;
+}
